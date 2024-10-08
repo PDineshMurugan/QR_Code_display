@@ -1,0 +1,61 @@
+html,body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+.conatiner{
+   width: 300px;
+   height: fit-content;
+   padding: 20px;
+   background-color: white;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.conatiner .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    padding: 0px 15px 15px 15px;
+}
+.conatiner img{
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+}
+
+.conatiner .content p{
+font-size: 20px;
+font-weight: 600;
+
+}
+.conatiner span{
+    opacity: 70%;
+}
+.conatiner .content .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px 0px 10px 0px;
+ 
+}
+.conatiner .content .head .heading{
+font-size: 20px;
+font-weight: 600;
+opacity: 100%;
+}
